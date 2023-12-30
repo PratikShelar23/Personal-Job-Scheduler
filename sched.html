@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduler</title>
+    <link rel="stylesheet" href="sched.css">
+</head>
+<body>
+    <div class="main">
+        <div class="upper">
+            <a href="index.html">HOME</a>
+            <a href="regis.html">REGISTER</a>
+            <a href="sched.html">SCHEDULER</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+
+        <!-- Company List -->
+        <ul id="companyList">
+            <li><a href="#" id="new" onclick="showCompany('Company A')">Company A</a></li>
+            <li><a href="#" onclick="showCompany('Company B')">Company B</a></li>
+            
+            <!-- Add more companies as needed -->
+        </ul>
+
+        <!-- Company Details -->
+        <div id="companyDetails" style="display: none;">
+            <h2>Company Details</h2>
+            <form id="scheduleForm">
+                <!-- <label for="companyName">Company Name:</label> -->
+                <input type="text" id="companyName" name="companyName" readonly>
+
+                <!-- <label for="date">Date:</label> -->
+                <input type="date" id="date" name="date" required>
+
+                <!-- <label for="time">Time:</label> -->
+                <input type="time" id="time" name="time" required>
+
+                <!-- <label for="round">Which Round:</label> -->
+                <select id="round" name="round">
+                    <option value="" selected disabled hidden>Select a round</option>
+                    <option value="Round 1">Aptitude Round</option>
+                    <option value="Round 1">Technical Round</option>
+                    <option value="Round 2">GD Round</option>
+                    <option value="Round 1">HR Round</option>
+                    <!-- Add more rounds as needed -->
+                </select>
+
+                <button class="custom-btn btn-1" type="button" onclick="scheduleCompany()">SCHEDULE THIS</button>
+            </form>
+        </div>
+    </div>
+    <script src="sched.js"></script>
+</body>
+</html>
