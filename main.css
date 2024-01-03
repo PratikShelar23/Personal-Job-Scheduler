@@ -128,4 +128,14 @@ background-position: center;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .btn-23 {
+    padding: 0.6rem 2rem;
+  }
+}
 
+@media screen and (max-width: 480px) {
+  .btn-23 {
+    padding: 0.4rem 1.5rem;
+  }
+}
