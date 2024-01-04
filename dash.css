@@ -246,7 +246,7 @@ background-position: center;
 
  @media only screen and (max-width: 768px) {
     .main .upper {
-        padding: 50px 2px;
+        padding: 50px 5px;
     }
 
     .lower {
