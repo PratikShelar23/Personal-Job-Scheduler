@@ -243,3 +243,14 @@ background-position: center;
   .card4:hover .go-arrow {
     opacity: 1;
   }
+
+ @media only screen and (max-width: 768px) {
+    .main .upper {
+        padding: 50px 2px;
+    }
+
+    .lower {
+        margin-top: 50vh;
+        margin-left: 20%;
+    }
+}
