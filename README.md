@@ -1,5 +1,5 @@
 # Personal-Job-Scheduler
-This is only for personal use...
+Feel free to contribute to it
 Created on 20-Dec-2023 to 30-Dec-2023
 
 # DEMO VIDEO :
